@@ -20,4 +20,7 @@ const port = process.env.PORT || '3000';
 app.set('port',port);
 
 const server = http.createServer(app);
-server.listen(port, () => console.log('Running on localhost:${port}'));
+server.listen(port, () => console.log("Running on localhost:${port}"));
+
+//  mongodb+srv://admin:admin@c0-txnvy.mongodb.net/test?retryWrites=true&w=majority
+
